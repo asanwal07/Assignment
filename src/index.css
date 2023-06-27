@@ -200,6 +200,7 @@ body {
 
 .container2 {
   padding: 15px;
+  padding-left: 20px;
 }
 
 .Content {
@@ -224,7 +225,7 @@ body {
 
 .Client select {
   margin-top: 2px;
-  width: 321px;
+  width: 411px;
   height: 23px;
   border: 1px solid #c4c4c4;
   border-radius: 4px;
@@ -236,7 +237,7 @@ body {
 }
 
 .Client input {
-  width: 310px;
+  width: 400px;
   height: 20px;
   font-size: 10px;
   margin-left: 5px;
@@ -263,8 +264,8 @@ body {
   /* margin-right: 5px; */
   width: 100px;
   position: relative;
-  left: 240px;
-  top: 190px;
+  left: 314px;
+  top: 321px;
   color: white;
   background-color: #60D1D0;
   border: 1px solid #60D1D0;
