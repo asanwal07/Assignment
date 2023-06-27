@@ -225,7 +225,7 @@ body {
 
 .Client select {
   margin-top: 2px;
-        width: 323px;
+        width: 263px;
     height: 23px;
     border: 1px solid #c4c4c4;
     border-radius: 4px;
@@ -237,7 +237,7 @@ body {
 }
 
 .Client input {
-     width: 313px;
+     width: 253px;
     height: 20px;
     font-size: 10px;
     margin-left: 5px;
