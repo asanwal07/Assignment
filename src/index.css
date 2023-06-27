@@ -1,35 +1,51 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-around;
+  background-color: gainsboro;
 }
 
 .MainContainer {
   display: flex;
   /* border: 2px solid yellow; */
   height: 90vh;
-  justify-content: space-between;
+  width: 100vw;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: ; */
 }
 
 .BigScreen {
   /* border: 1px solid black; */
-  width: 57%;
-  margin-top: 18px;
+  width: 720px;
+  height: 60vh;
   padding: 10px;
-  /* border: 1px solid rgb(237, 236, 236); */
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 12px;
 
+  /* border: 1px solid rgb(237, 236, 236); */
 }
 
 .SmallScreen {
-  border: 1px solid rgb(237, 236, 236);
-    width: 27%;
-    border-radius: 10px;
-    margin: 10px;
-    margin-right: 25px;
-
+  border: 1px solid gray;
+  width: fit-content;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: white;
+  height: 60vh;
+  margin-right: 25px;
+  position: relative;
+  padding: 10px;
 }
 
 .CreateWork {
@@ -55,13 +71,13 @@ body {
 
 .save button {
   border: 0px solid seagreen;
-  background-color: #60D1D0;
+  background-color: #60d1d0;
   border-radius: 3px;
   width: 75px;
   height: 21px;
   color: white;
-  box-shadow: 0px 3.4827635288238525px 8.7069091796875px rgba(16, 156, 241, 0.24);
-
+  box-shadow: 0px 3.4827635288238525px 8.7069091796875px
+    rgba(16, 156, 241, 0.24);
 }
 
 .save {
@@ -69,28 +85,25 @@ body {
   color: white;
 }
 
-
 .selector {
   /* border: 1px solid black; */
   display: flex;
   cursor: pointer;
   margin-left: 9px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 13px;
   font-weight: 200;
-
 }
 
 .overview {
   border-bottom: 2px solid black;
   width: 152px;
   text-align: center;
-
 }
 
 .other {
-  color: #DEDEDE;
-  border-bottom: 2px solid #DEDEDE;
+  color: #dedede;
+  border-bottom: 2px solid #dedede;
   width: 152px;
   text-align: center;
 }
@@ -105,14 +118,13 @@ body {
   height: 22px;
 }
 
-
 .two {
   display: flex;
   margin-left: 8px;
   background-color: white;
   height: 32px;
-  border: 1px solid #DEDEDE;
-  font-family: 'Roboto';
+  border: 1px solid #dedede;
+  font-family: "Roboto";
   font-weight: 300;
   width: 700px;
   height: 22px;
@@ -137,23 +149,22 @@ body {
   width: 32%;
   display: flex;
   align-items: center;
-
 }
 
 .two .rate {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 12px;
   font-weight: 300;
 }
 
 .two .total {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 12px;
   font-weight: 300;
 }
 
 .two .content {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.1px;
@@ -166,12 +177,9 @@ body {
 .checkbox input {
   width: 15px;
   height: 14px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-
-
-
 
 .total {
   width: 20%;
@@ -204,17 +212,17 @@ body {
 }
 
 .Content {
-      font-family: 'Roboto';
-    font-size: 12px;
-    font-weight: 450;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 48px 0 4px;
-    color: #13193F;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 450;
+  display: flex;
+  justify-content: space-between;
+  color: #13193f;
 }
 
 .Content img {
   width: 20px;
+  cursor: pointer;
 }
 
 .Client {
@@ -225,32 +233,28 @@ body {
 
 .Client select {
   margin-top: 2px;
-        width: 263px;
-    height: 23px;
-    border: 1px solid #c4c4c4;
-    border-radius: 4px;
-    color: #aac0c8;
-    padding-left: 8px;
-    margin-left: 5px;
-    font-size: 11px;
-
+  width: 263px;
+  height: 23px;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  color: #aac0c8;
+  padding-left: 8px;
+  margin-left: 5px;
+  font-size: 11px;
 }
 
 .Client input {
-     width: 253px;
-    height: 20px;
-    font-size: 10px;
-    margin-left: 5px;
-    padding-left: 8px;
-    border: 1px solid #c4c4c4;
-    border-radius: 4px;
-
+  width: 253px;
+  height: 20px;
+  font-size: 10px;
+  margin-left: 5px;
+  padding-left: 8px;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
 }
 
-
-
 .Client label {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 11px;
   margin-left: 5px;
   margin-bottom: 7px;
@@ -261,18 +265,18 @@ body {
 } */
 
 .container2 button {
-     background-color: #60d1d0;
-    border: 1px solid #60d1d0;
-    border-radius: 3px;
-    box-shadow: 0 3.4827635288238525px 8.7069091796875px rgba(16,156,241,.24);
-    color: #fff;
-    font-family: Roboto;
-    font-size: 12px;
-    left: 1369px;
-    position: absolute;
-    top: 591px;
-    width: 100px;
-
+  background-color: #60d1d0;
+  border: 1px solid #60d1d0;
+  border-radius: 3px;
+  box-shadow: 0 3.4827635288238525px 8.7069091796875px rgba(16, 156, 241, 0.24);
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  position: absolute;
+  right: 35px;
+  position: absolute;
+  bottom: 50px;
+  width: 100px;
 }
 
 button {
