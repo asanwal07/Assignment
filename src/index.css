@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.MainContainer {
+  display: flex;
+  /* border: 2px solid yellow; */
+  height: 90vh;
+  justify-content: space-between;
+}
+
+.BigScreen {
+  /* border: 1px solid black; */
+  width: 57%;
+  margin-top: 18px;
+  padding: 10px;
+  /* border: 1px solid rgb(237, 236, 236); */
+
+}
+
+.SmallScreen {
+  border: 1px solid rgb(237, 236, 236);
+  width: 30%;
+  border-radius: 10px;
+  margin: 10px;
+  margin-right: 25px;
+
+}
+
+.CreateWork {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  display: flex;
+  /* border: 1px solid blueviolet; */
+  width: 50%;
+  margin-left: 0;
+}
+
+.heading {
+  margin: 2px;
+}
+
+.heading h5 {
+  margin-top: 1px;
+}
+
+.save button {
+  border: 0px solid seagreen;
+  background-color: #60D1D0;
+  border-radius: 3px;
+  width: 75px;
+  height: 21px;
+  color: white;
+  box-shadow: 0px 3.4827635288238525px 8.7069091796875px rgba(16, 156, 241, 0.24);
+
+}
+
+.save {
+  margin-left: 5px;
+  color: white;
+}
+
+
+.selector {
+  /* border: 1px solid black; */
+  display: flex;
+  cursor: pointer;
+  margin-left: 9px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 200;
+
+}
+
+.overview {
+  border-bottom: 2px solid black;
+  width: 152px;
+  text-align: center;
+
+}
+
+.other {
+  color: #DEDEDE;
+  border-bottom: 2px solid #DEDEDE;
+  width: 152px;
+  text-align: center;
+}
+
+.one {
+  display: flex;
+
+  margin-top: 25px;
+  margin-left: 8px;
+  background-color: #e1f2f9;
+  height: 32px;
+  /* font-family: 'Roboto';
+  font-weight: 400; */
+  width: 702px;
+  height: 22px;
+}
+
+
+.two {
+  display: flex;
+  margin-left: 8px;
+  background-color: white;
+  height: 32px;
+  border: 1px solid #DEDEDE;
+  font-family: 'Roboto';
+  font-weight: 300;
+  width: 700px;
+  height: 22px;
+}
+
+.one .rate em {
+  font-size: 13px;
+}
+
+.checkbox {
+  margin-right: 24px;
+}
+
+.packages {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rate {
+  width: 32%;
+  display: flex;
+  align-items: center;
+
+}
+
+.two .rate {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.two .total {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.two .content {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+}
+
+.checkbox {
+  margin-right: 24px;
+}
+
+.checkbox input {
+  width: 15px;
+  height: 14px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+  cursor: pointer;
+}
+
+
+
+
+.total {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  /* font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300; */
+}
+
+.plus {
+  margin-top: 3px;
+  margin-left: 128px;
+}
+
+.totalplus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalplus img {
+  width: 14px;
+  cursor: pointer;
+}
+
+.container2 {
+  padding: 15px;
+}
+
+.Content {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 450;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8px 0 4px;
+  color: #13193F;
+}
+
+.Content img {
+  width: 20px;
+}
+
+.Client {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.Client select {
+  margin-top: 2px;
+  width: 321px;
+  height: 23px;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  color: #aac0c8;
+  padding-left: 8px;
+  margin-left: 5px;
+  font-size: 11px;
+
+}
+
+.Client input {
+  width: 310px;
+  height: 20px;
+  font-size: 10px;
+  margin-left: 5px;
+  padding-left: 8px;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+
+}
+
+
+
+.Client label {
+  font-family: 'Roboto';
+  font-size: 11px;
+  margin-left: 5px;
+  margin-bottom: 7px;
+}
+
+/* .One select {
+  margin-top: 2px;
+} */
+
+.container2 button {
+  /* margin-right: 5px; */
+  width: 100px;
+  position: relative;
+  left: 240px;
+  top: 190px;
+  color: white;
+  background-color: #60D1D0;
+  border: 1px solid #60D1D0;
+  border-radius: 3px;
+  box-shadow: 0px 3.4827635288238525px 8.7069091796875px rgba(16, 156, 241, 0.24);
+  font-family: 'Roboto';
+  font-size: 12px;
+
+}
+
+button {
+  cursor: pointer;
+}
