@@ -25,10 +25,10 @@ body {
 
 .SmallScreen {
   border: 1px solid rgb(237, 236, 236);
-  width: 30%;
-  border-radius: 10px;
-  margin: 10px;
-  margin-right: 25px;
+    width: 27%;
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 25px;
 
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .save {
-  margin-right: 6px;
+  margin-right: 65px;
   color: white;
 }
 
@@ -101,7 +101,7 @@ body {
   margin-left: 8px;
   background-color: #e1f2f9;
   height: 32px;
-  width: 860px;
+  width: 702px;
   height: 22px;
 }
 
@@ -114,7 +114,7 @@ body {
   border: 1px solid #DEDEDE;
   font-family: 'Roboto';
   font-weight: 300;
-  width: 858px;
+  width: 700px;
   height: 22px;
 }
 
@@ -204,13 +204,13 @@ body {
 }
 
 .Content {
-  font-family: 'Roboto';
-  font-size: 12px;
-  font-weight: 450;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 8px 0 4px;
-  color: #13193F;
+      font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 450;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 31px 0 4px;
+    color: #13193F;
 }
 
 .Content img {
@@ -225,25 +225,25 @@ body {
 
 .Client select {
   margin-top: 2px;
-  width: 411px;
-  height: 23px;
-  border: 1px solid #c4c4c4;
-  border-radius: 4px;
-  color: #aac0c8;
-  padding-left: 8px;
-  margin-left: 5px;
-  font-size: 11px;
+    width: 298px;
+    height: 23px;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    color: #aac0c8;
+    padding-left: 8px;
+    margin-left: 5px;
+    font-size: 11px;
 
 }
 
 .Client input {
-  width: 400px;
-  height: 20px;
-  font-size: 10px;
-  margin-left: 5px;
-  padding-left: 8px;
-  border: 1px solid #c4c4c4;
-  border-radius: 4px;
+     width: 287px;
+    height: 20px;
+    font-size: 10px;
+    margin-left: 5px;
+    padding-left: 8px;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
 
 }
 
@@ -261,18 +261,17 @@ body {
 } */
 
 .container2 button {
-  /* margin-right: 5px; */
-  width: 100px;
-  position: relative;
-  left: 314px;
-  top: 321px;
-  color: white;
-  background-color: #60D1D0;
-  border: 1px solid #60D1D0;
-  border-radius: 3px;
-  box-shadow: 0px 3.4827635288238525px 8.7069091796875px rgba(16, 156, 241, 0.24);
-  font-family: 'Roboto';
-  font-size: 12px;
+ width: 100px;
+    position: absolute;
+    left: 1165px;
+    top: 568px;
+    color: white;
+    background-color: #60D1D0;
+    border: 1px solid #60D1D0;
+    border-radius: 3px;
+    box-shadow: 0px 3.4827635288238525px 8.7069091796875px rgba(16, 156, 241, 0.24);
+    font-family: 'Roboto';
+    font-size: 12px;
 
 }
 
